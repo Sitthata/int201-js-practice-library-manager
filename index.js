@@ -23,5 +23,9 @@ const libraryManagement = () => {
         }).sort((b1, b2) => b2.publishedYear - b1.publishedYear);
     }
 
+    const test = () => {
+        return ""
+    }
+
     return {addBook, findBookByAuthor, findBookByGenre, topRatedBook, recentlyPublish};
 }
